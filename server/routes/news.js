@@ -14,4 +14,6 @@ router.patch('/api/news/:id', newsContorller.updateNews);
 
 router.delete('/api/news/:id', newsContorller.deleteNews);
 
+router.get('/', newsContorller.showDetail);
+
 module.exports = router;

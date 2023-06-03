@@ -68,3 +68,7 @@ exports.deleteNews = async (req, res) => {
 		});
 	}
 };
+
+exports.showDetail = async(req, res) => {
+	res.send('Admin Homepage')
+}
